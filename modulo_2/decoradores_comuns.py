@@ -38,5 +38,5 @@ class Carro:
 
 configuracao1 = "Honda,Civic,2025"
 carro1 = Carro.criar_carro(configuracao1)
-print(f"Marca:{carro1.marca} Modelo:{carro1.modelo} Ano:{carro1.ano}")
+print(f"Marca: {carro1.marca} Modelo: {carro1.modelo} Ano: {carro1.ano}")
 

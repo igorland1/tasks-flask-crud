@@ -28,8 +28,8 @@ print("Resultado do teste 3:", resultado3)
 def soma(numero1, numero2):
     return numero1 + numero2
 
-numero1 = 10
-numero2 = 20
+numero1 = 25
+numero2 = 25
 
 # Testando a função com múltiplos parâmetros
 resultado_soma = soma(numero1, numero2)
