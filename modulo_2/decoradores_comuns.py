@@ -40,3 +40,10 @@ configuracao1 = "Honda,Civic,2025"
 carro1 = Carro.criar_carro(configuracao1)
 print(f"Marca: {carro1.marca} Modelo: {carro1.modelo} Ano: {carro1.ano}")
 
+class Matematica:
+
+    @staticmethod
+    def somar(a, b):
+        return a + b
+
+print(Matematica.somar(5, 7))
